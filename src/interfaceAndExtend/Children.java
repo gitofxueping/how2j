@@ -1,5 +1,6 @@
 package interfaceAndExtend;
 
+//super关键字:子类通过super关键字调用父类的带参构造方法，属性，方法
 public class Children extends Parent implements AD{
 
     int moveSpeed=400; //移动速度

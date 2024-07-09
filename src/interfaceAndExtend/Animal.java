@@ -1,7 +1,8 @@
 package interfaceAndExtend;
 
 //抽象类
-//匿名类
+//匿名类,本地类
+
 public abstract class Animal {
 
     String name;

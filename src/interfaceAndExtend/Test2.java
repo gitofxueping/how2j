@@ -1,6 +1,6 @@
 package interfaceAndExtend;
 
-//多态
+//多态:操作符的多态和类的多态
 public class Test2 {
     public static void main(String[] args) {
         method1();
