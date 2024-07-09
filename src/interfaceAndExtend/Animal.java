@@ -7,12 +7,6 @@ public abstract class Animal {
 
     String name;
 
-    float hp;
-
-    float armor;
-
-    int moveSpeed;
-
     public abstract void attack();
 
     public static void main(String[] args) {

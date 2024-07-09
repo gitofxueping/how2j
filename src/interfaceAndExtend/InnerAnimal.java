@@ -5,18 +5,10 @@ package interfaceAndExtend;
 public class InnerAnimal {
     private String name; // 姓名
 
-    float hp; // 血量
-
-    float armor; // 护甲
-
-    int moveSpeed; // 移动速度
-
     // 非静态内部类，只有外部类对象存在的时候，才有意义
     // 战斗成绩只有在英雄对象存在的时候才有意义
     class BattleScore {
         int kill;
-        int die;
-        int assit;
 
         public void legendary() {
             if (kill >= 8)

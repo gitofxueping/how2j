@@ -4,7 +4,7 @@ package classAndObject;
 public class Game {
 
     public String name; //实例属性，对象属性，非静态属性
-    protected float hp;
+
     static String copyright;//类属性,静态属性
 
     /*类方法:静态方法，通过类就可以直接调用

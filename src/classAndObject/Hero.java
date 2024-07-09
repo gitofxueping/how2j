@@ -5,10 +5,6 @@ public class Hero {
 
     float hp; //血量
 
-    float armor; //护甲
-
-    int moveSpeed; //移动速度
-
     // 构造方法:方法名和类名一样（包括大小写），没有返回类型
     public Hero() {
         System.out.println("实例化一个对象的时候，必然调用构造方法");
