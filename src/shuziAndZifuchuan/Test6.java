@@ -91,7 +91,7 @@ public class Test6 {
         System.out.println(sentence.contains("击杀")); //是否包含字符串"击杀"
     }
 
-    /** 替换 replaceAll(a,b)  所有的a替换成b
+    /** 替换 replaceAll(a,b) 所有的a替换成b
             replaceFirst 只替换第一个 */
     public static void method8(){
         String sentence = "盖伦,在进行了连续8次击杀后,获得了超神 的称号";
