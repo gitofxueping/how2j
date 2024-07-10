@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-//什么是异常
+//异常
 public class Test1 {
     public static void main(String[] args) throws FileNotFoundException {
 
