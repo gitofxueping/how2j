@@ -10,7 +10,7 @@ import java.net.UnknownHostException;
 
   两台计算机进行连接，总有一台服务器，一台客户端。
   服务器和客户端之间的通信通过端口进行。*/
-public class test1 {
+public class Test1 {
     public static void main(String[] args) throws IOException {
         method1();// 获取本机IP地址
         method2();// ping命令
