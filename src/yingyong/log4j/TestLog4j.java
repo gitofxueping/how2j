@@ -5,6 +5,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
+/** log4j */
 public class TestLog4j {
     //基于类的名称获取日志对象
     static Logger logger = Logger.getLogger(TestLog4j.class);
