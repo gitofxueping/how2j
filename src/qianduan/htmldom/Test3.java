@@ -38,6 +38,7 @@ public class Test3 {
         设置href的值为http:12306.com
         通过setAttributeNode把该属性设置到元素节点a上
         最后把a加入到div
+
 3.删除节点
     (1)	删除元素节点：
         第一步：先获取该元素和该元素的父节点
@@ -48,13 +49,15 @@ public class Test3 {
     (3)	删除属性节点
         第一步：先获取该元素节点
         第二步：元素节点调用removeAttribute删除指定属性节点
+
 4.替换节点：获取父节点，然后通过父节点替换子节点。
     (1)获取父节点
     (2)创建子节点
     (3)获取被替换子节点
     (4)通过replaceChild进行替换：parentDiv.replaceChild(d4,d3)
     注: replaceChild 第一个参数是保留的节点，第二个参数是被替换的节点
-4.插入节点
+
+5.插入节点
     (1)	追加节点：通过appendChild追加节点。 追加节点是把新的节点插在最后面
         ①创建新节点
         ②获取父节点

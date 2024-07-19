@@ -5,6 +5,7 @@ public class Test2 {
     /*JavaScript 对象
     JavaScript中的对象是有着属性和方法的一种特殊数据类型。
     常见的对象有数字Number，字符串String，日期Date，数组Array等。
+
     1.数字对象
      (1)这里讲的Number是数字对象Number,和基本数据类型中的基本类型Number是不一样的Number。
      (2)可以通过new Number()创建一个数字对象
@@ -15,6 +16,7 @@ public class Test2 {
         var b = new Number("3.1415926");
         b.toFixed(3));//保留三位小数点
      (5)返回一个数字对象的基本数字类型数字:  valueOf()
+
     2.字符串对象属性 length
      (1)创建字符串对象：new String()
      (2)字符串长度: 属性length
@@ -30,6 +32,7 @@ public class Test2 {
      (9)替换子字符串: replace(search,replacement)
         找到满足条件的子字符串search，替换为replacement
      (10)返回基本类型String：所有返回字符串类型的方法，返回的都是基本类型的String
+
    3.数组
      (1)javascript中的数组是动态的，即长度是可以发生变化的。
      (2)创建数组对象:
@@ -70,6 +73,7 @@ public class Test2 {
          数组x是:3,1,4,1,5,9,2,6
          x.splice (3,2) 表示从位置3开始 ，删除2个元素:3,1,4,9,2,6
          x.splice(3,0,1,5) 从位置3开始，删除0个元素，但是插入1和5,最后得到:3,1,4,1,5,9,2,6
+
   4.日期
      (1)创建日期对象: new Date();
      (2)获取年:getFullYear()，
@@ -86,6 +90,7 @@ public class Test2 {
         d.setFullYear(2012);
         d.setMonth(11); //月份是基0的，所以11表示12月
         d.setDate(12);
+
    5.Math
      (1)Math是JavaScript的工具对象，用于常见的数学运算
      (2)自然对数Math.E和圆周率Math.PI
@@ -95,6 +100,7 @@ public class Test2 {
      (6)方法pow求一个数的n次方: Math.pow(3,3)
      (7)方法round,小数四舍五入取整: Math.round(3.4)
      (8)方法random 取0-1之间的随机数:  Math.random()
+
    6.自定义对象
      (1)通过new Object()创建对象：
         <script>

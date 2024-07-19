@@ -93,7 +93,7 @@ public class Test1 {
                 如果第一个返回true,就返回a,否则就返回b。
   12.条件语句:if…else…,switch
   13.循环语句:for,while,do…while,forEach，continue,break
-  14.错误处理: try catch
+  14.错误处理: try...catch...
  */
 
 }

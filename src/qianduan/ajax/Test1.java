@@ -1,4 +1,4 @@
-package qianduan;
+package qianduan.ajax;
 
 /** AJAX */
 public class Test1 {
